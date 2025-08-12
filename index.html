@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mermeladas Roger - Artesanales y Naturales</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- Estilos locales -->
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <!-- HEADER - Navbar Bootstrap -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="brand-logo" src="public/img/logo.png" alt="Mermeladas Roger">
+                    <span class="brand-text">Mermeladas Roger</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="public/views/productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="public/views/proceso.html">Proceso</a></li>
+                        <li class="nav-item"><a class="nav-link" href="public/views/nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="public/views/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN - Carrusel Bootstrap -->
+    <main>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="public/img/Carrusel-1.jpeg" class="d-block w-100" alt="Mermeladas artesanales">
+                    <div class="carousel-caption">
+                        <h1>Dulzor Natural, Cero Conservantes</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="public/img/Carrusel-2.jpeg" class="d-block w-100" alt="Variedades">
+                    <div class="carousel-caption">
+                        <h2>+20 Sabores Únicos</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="public/img/Carrusel-3.jpeg" class="d-block w-100" alt="Presentaciones">
+                    <div class="carousel-caption">
+                        <h2>Frascos de 250g, 300g y 500g</h2>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- Sección Valores -->
+        <section class="valores">
+            <div class="container">
+                <h2 class="section-title">Nuestros Valores</h2>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 rounded bg-white shadow-sm">
+                            <h3><i class="bi bi-tree me-2"></i>100% Natural</h3>
+                            <p class="mb-0">Sin conservantes ni aditivos artificiales</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 rounded bg-white shadow-sm">
+                            <h3><i class="bi bi-hand-index-thumb me-2"></i>Elaboración Artesanal</h3>
+                            <p class="mb-0">Cocinadas a fuego lento como tradicionalmente</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 rounded bg-white shadow-sm">
+                            <h3><i class="bi bi-heart me-2"></i>Opción más Saludable</h3>
+                            <p class="mb-0">Realizadas con azúcar Mascabo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Sección Productos Destacados -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="section-title">Sabores Destacados</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="public/img/Productos Destacados/Alcayota.jpeg" class="card-img-top" alt="Alcayota">
+                            <div class="card-body">
+                                <h5 class="card-title">Alcayota</h5>
+                                <p class="card-text">Dulce tradicional con el toque crujiente de nueces seleccionadas.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <small class="text-success">Disponible en todos los tamaños</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="public/img/Productos Destacados/Berries.jpeg" class="card-img-top" alt="Berries">
+                            <div class="card-body">
+                                <h5 class="card-title">Berries</h5>
+                                <p class="card-text">Mezcla de frutos rojos con un equilibrio perfecto entre dulce y ácido.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <small class="text-success">Disponible en todos los tamaños</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="public/img/Productos Destacados/Durazno.jpeg" class="card-img-top" alt="Durazno">
+                            <div class="card-body">
+                                <h5 class="card-title">Durazno</h5>
+                                <p class="card-text">Sabor intenso a durazno de huerta, sin aditivos ni conservantes.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <small class="text-success">Disponible en todos los tamaños</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="public/views/productos.html" class="btn btn-primary">
+                        <i class="bi bi-basket me-2"></i>Ver Todos los Sabores
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Testimonios -->
+        <section class="py-5 green-accent">
+            <div class="container">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-white rounded shadow-sm">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="border-green">"Las mermeladas de Roger son simplemente excepcionales. El sabor a fruta real es incomparable con cualquier otra que haya probado."</p>
+                            <div class="d-flex align-items-center">
+                                <img src="public/img/Testimonios/Cliente1.jpg" alt="Cliente satisfecho" width="50" height="50" class="rounded-circle me-3">
+                                <div>
+                                    <strong>María González</strong>
+                                    <div class="text-muted">San Rafael, Mendoza</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-white rounded shadow-sm">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="border-green">"Me encanta que usen azúcar mascabo y que sean tan transparentes con su proceso. ¡Se nota la calidad en cada cucharada!"</p>
+                            <div class="d-flex align-items-center">
+                                <img src="public/img/Testimonios/Cliente2.jpg" alt="Cliente satisfecho" width="50" height="50" class="rounded-circle me-3">
+                                <div>
+                                    <strong>Carlos Fernández</strong>
+                                    <div class="text-muted">Buenos Aires</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4 bg-white rounded shadow-sm">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                            </div>
+                            <p class="border-green">"El packaging ecológico fue lo que me convenció al principio, pero el sabor fue lo que me hizo cliente recurrente. ¡Simplemente deliciosas!"</p>
+                            <div class="d-flex align-items-center">
+                                <img src="public/img/Testimonios/Cliente3.jpg" alt="Cliente satisfecho" width="50" height="50" class="rounded-circle me-3">
+                                <div>
+                                    <strong>Lucía Martínez</strong>
+                                    <div class="text-muted">Mendoza Capital</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h2 class="mb-3">Únete a nuestra comunidad</h2>
+                        <p class="lead">Recibe recetas exclusivas, descuentos especiales y sé el primero en conocer nuestros nuevos sabores.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="d-flex">
+                            <input type="email" class="form-control me-2" placeholder="Tu correo electrónico" required>
+                            <button type="submit" class="btn btn-primary">Suscribirme</button>
+                        </form>
+                        <div class="form-text mt-2">Respetamos tu privacidad. Nunca compartiremos tu información.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 class="mb-3">Mermeladas Roger</h4>
+                    <p>Elaborando mermeladas artesanales con ingredientes naturales desde 2021.</p>
+                    <div class="d-flex mt-3">
+                        <a href="https://instagram.com/mermeladasroger" class="text-white me-3 fs-5">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/MermeladasRoger" class="text-white me-3 fs-5">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/542604093322" class="text-white fs-5">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 class="mb-3">Enlaces Rápidos</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html">Inicio</a></li>
+                        <li class="mb-2"><a href="public/views/productos.html">Nuestros Productos</a></li>
+                        <li class="mb-2"><a href="public/views/proceso.html">Proceso Artesanal</a></li>
+                        <li class="mb-2"><a href="public/views/nosotros.html">Nuestra Historia</a></li>
+                        <li><a href="public/views/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="mb-3">Contacto</h4>
+                    <p><i class="bi bi-envelope me-2"></i>mermeladasroger@gmail.com</p>
+                    <p><i class="bi bi-whatsapp me-2"></i>WhatsApp: 2604093322</p>
+                    <p><i class="bi bi-geo-alt me-2"></i>Dr. Adolfo Angel Vicchi 210, San Rafael, Mendoza</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+</body>
+</html>
